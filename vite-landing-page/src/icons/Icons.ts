@@ -1,0 +1,9 @@
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { IconDefinition } from '@fortawesome/fontawesome-common-types';
+import { faCoffee, faHome, faUser, faCode, faBars, faArrowLeft, faArrowRight, faXmark, faPencil, } from '@fortawesome/free-solid-svg-icons';
+
+const iconsToAdd: IconDefinition[] = [faCoffee, faHome, faUser, faCode, faBars, faArrowLeft, faArrowRight, faXmark, faPencil ];
+library.add(...iconsToAdd);
+
+// Export if necessary
+export { library, iconsToAdd };
